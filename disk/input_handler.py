@@ -1,6 +1,5 @@
 from disk.image_handler import walk_and_collect
 from utils.io_utils import read_input_file
-from tqdm import tqdm
 from utils.logger import setup_logger
 
 logger = setup_logger(log_file="logs/disk.log")

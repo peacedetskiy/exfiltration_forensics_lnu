@@ -34,7 +34,7 @@ def match_hashes(input_df, result_df, output_dir, fuzzy=None,
     logger.info(f"Exact hash matches found: {len(matches)}")
 
     # ----------------------------------------------------------------------
-    # FUZZY HASH MATCHING (SSDEEP & TLSH ONLY)
+    # FUZZY HASH MATCHING
     # ----------------------------------------------------------------------
     fuzzy_results = []
 

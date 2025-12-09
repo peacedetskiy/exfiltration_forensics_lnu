@@ -25,4 +25,6 @@ def read_input_file(file_list_csv):
     if "tlsh" in df.columns:
         fuzzy["tlsh"] = df["tlsh"].dropna().tolist()
 
+    print(df.head())
+
     return df, types, hashes, fuzzy
